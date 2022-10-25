@@ -1,1 +1,24 @@
-
+  Clases de gol
+  
+  la pagina se trata de los conceptos basicos del futbol, va a dirigido a las personas que no entiendes mucho del deporte
+  
+  el objetivo es enseñar cosas basicas del futbol
+  
+  secciones:
+  -inicio
+  -otside 
+  -faltas
+  -alineaciones
+  -goles
+  -partido
+  -arbitraje 
+  
+  flatin.com (iconos)
+  pixabay.com
+  
+  -colores
+  
+  
+  
+  
+  
