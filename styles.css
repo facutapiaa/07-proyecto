@@ -1,0 +1,57 @@
+#a{
+    background-color: #2D4059;
+    text-align: center;
+    color: white;
+}
+#arbitro{
+    margin-bottom: 25px;
+}
+#cancha{
+    margin-top: 10px;
+}
+
+body{
+    background-color: #EA5455;
+}
+
+#tit{
+    background-color: #F07B3F;
+    margin-bottom: 15px;
+}
+
+#out, #ar, #gool, #part{
+display: flex;
+justify-content: center;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: #FFD460;
+}
+
+#pri, #seg, #ter, #cuar{
+    color: white;
+    background-color: #2D4059 ;
+}
+#carrusel{
+    display: flex;
+    justify-content: center;
+    margin-right: 800px;
+    background-color: #2D4059;
+}
+h3{
+    text-align: center;
+}
+
+#b{
+    text-align: center;
+}
+#can{
+    background-image: descarga.png;
+}
+
+
+2D4059 negro
+EA5455 rojo
+F07B3F naranja
+FFD460 alemania
