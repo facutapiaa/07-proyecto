@@ -50,7 +50,9 @@
     <!-- segunda parte-->
 
     <div class="container" id="tarjetas">
-      <div class="container text-center" id="tit"> <h2>TARJETAS</h2></div>
+      <div class="container text-center" id="tit">
+        <h2>TARJETAS</h2>
+      </div>
 
       <div class="row">
         <div class="col-6 bg-warning">
@@ -90,13 +92,18 @@
 
     <!-- tercera parte-->
     <div id="outside">
-      <div class="container text-center " id="tit"> <h2> OUT SIDE</h2></div>
+      <div class="container text-center " id="tit">
+        <h2> OUT SIDE</h2>
+      </div>
       <div class="container" id="pri">
         <div class="row">
-          <div class="col-6">Un jugador está en posición de fuera de juego si está 
-            más cerca de la línea de meta contraria que el balón y el penúltimo adversario, a menos que se encuentre dentro de su propio campo.<br>
-            Dicha violación del reglamento es señalada por el árbitro asistente o juez de línea, quien levantará la bandera para advertir al 
-            árbitro principal sobre la posición adelantada. Una vez sancionada la infracción, el equipo que hasta entonces defendía tiene un tiro libre a su favor. </div>
+          <div class="col-6">Un jugador está en posición de fuera de juego si está
+            más cerca de la línea de meta contraria que el balón y el penúltimo adversario, a menos que se encuentre
+            dentro de su propio campo.<br>
+            Dicha violación del reglamento es señalada por el árbitro asistente o juez de línea, quien levantará la
+            bandera para advertir al
+            árbitro principal sobre la posición adelantada. Una vez sancionada la infracción, el equipo que hasta
+            entonces defendía tiene un tiro libre a su favor. </div>
           <div class="col-6" id="out"><img src="/assests/imagenes/outside.png" alt="outside" width="80%"></div>
         </div>
       </div>
@@ -104,18 +111,72 @@
     <hr>
 
     <!-- cuarta parte-->
+
+    <!--carrusel-->
     <div id="formaciones">
+      <div class="container text-center " id="tit">
+        <h2> FORMACIONES</h2>
+
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000" id="ass">
+              <img src="/assests/imagenes/3142.jpeg" class="d-block w-80" alt="3142" width="70%">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>3142</h3>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000" id="ass">
+              <img src="/assests/imagenes/343.jpeg" class="d-block w-80" alt="343" width="70%">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>343</h3>
+              </div>
+            </div>
+            <div class="carousel-item" id="ass">
+              <img src="/assests/imagenes/4123.jpeg" class="d-block w-80" alt="4123" width="70%">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>4123</h3>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+        </div>
+
+      </div>
+
+
+
 
     </div>
 
     <!-- quinta parte-->
     <div id="goles">
-      <div class="container text-center" id="tit"> <h2> GOLES</h2></div>
+      <div class="container text-center" id="tit">
+        <h2> GOLES</h2>
+      </div>
       <div class="container" id="seg">
         <div class="row">
-          <div class="col-6"> Un gol es la marcación de un tanto. Se considera que el equipo que marca más goles es quien gana el partido.<br>
-            Se consigue un gol cuando el balón rebasa totalmente la línea interior de la portería y sin que ninguna falta acabe de 
-            ser cometida por el lanzador o sus compañeros. Cuando un defensor comete una falta que no impide que el balón entre en la portería, el gol se considera válido.
+          <div class="col-6"> Un gol es la marcación de un tanto. Se considera que el equipo que marca más goles es
+            quien gana el partido.<br>
+            Se consigue un gol cuando el balón rebasa totalmente la línea interior de la portería y sin que ninguna
+            falta acabe de
+            ser cometida por el lanzador o sus compañeros. Cuando un defensor comete una falta que no impide que el
+            balón entre en la portería, el gol se considera válido.
           </div>
           <div class="col-6" id="gool"><img src="/assests/imagenes/gooool.jpg" alt="gol" width="80%"></div>
         </div>
@@ -125,21 +186,28 @@
 
     <!-- sexta parte-->
     <div id="partido">
-      <div class="container text-center" id="tit"><h2> PARTIDO</h2></div>
+      <div class="container text-center" id="tit">
+        <h2> PARTIDO</h2>
+      </div>
       <div class="container" id="ter">
         <div class="row">
           <div class="col-6">
             1. Los partidos de fútbol se dividen en dos tiempos, cada uno de 45 minutos, con un descanso de 15.<br>
             2. El árbitro lanza una moneda para decidir el lado de la cancha jugarán.<br>
-            3. El balón está dentro del juego mientras no haya falta. La pelota está fuera de cancha si cruza la meta o la línea de banda.<br>
+            3. El balón está dentro del juego mientras no haya falta. La pelota está fuera de cancha si cruza la meta o
+            la línea de banda.<br>
             4. Se marcará gol cuando el balón pasa la línea de meta y entra al arco, siempre y cuando no haya falta.<br>
-            5. Tocar el balón; saltar sobre el adversario, empujarlo, golpearlo, sujetarlo, patearlo o escupirlo; son consideradas faltas y son cobradas con tiro libre a favor del equipo afectado.<br>
-            6. El árbitro muestra tarjeta amarilla para amonestar a un jugador (por infringir el reglamento) y una tarjeta roja para expulsarlo (por conducta violenta contra el adversario o impedir un gol con la mano).<br>
+            5. Tocar el balón; saltar sobre el adversario, empujarlo, golpearlo, sujetarlo, patearlo o escupirlo; son
+            consideradas faltas y son cobradas con tiro libre a favor del equipo afectado.<br>
+            6. El árbitro muestra tarjeta amarilla para amonestar a un jugador (por infringir el reglamento) y una
+            tarjeta roja para expulsarlo (por conducta violenta contra el adversario o impedir un gol con la mano).<br>
             7. El tiro libre reanuda el juego después de una falta. Existen dos tipos:<br>
             -Tiro libre directo: lanzamiento directo a la portería del equipo contrario.<br>
             -Tiro libre indirecto: un pase a otro jugador.<br>
-            8. Los penales se marcan cuando un jugador comete una infracción dentro del área que defiende y se cobra en favor del equipo contrario.<br>
-            9. Los saques reanudan el juego desde distintas partes de la cancha, por ello existen tres, con los nombres de donde se realiza:<br>
+            8. Los penales se marcan cuando un jugador comete una infracción dentro del área que defiende y se cobra en
+            favor del equipo contrario.<br>
+            9. Los saques reanudan el juego desde distintas partes de la cancha, por ello existen tres, con los nombres
+            de donde se realiza:<br>
             -saque de banda<br>
             -saque de meta<br>
             -saque de esquina<br>
@@ -152,15 +220,21 @@
 
     <!-- septima parte-->
     <div id="arbitraje">
-      <div class="container text-center" id="tit"><h2>ARBITRAJE</h2></div>
+      <div class="container text-center" id="tit">
+        <h2>ARBITRAJE</h2>
+      </div>
       <div class="container" id="cuar">
         <div class="row">
           <div class="col-6">
-            El árbitro es el encargado de dirigir el partido y, según las reglas del fútbol, debe cumplir las siguientes normas: Cuidará de la aplicación de las 
-            reglas de juego y resolverá todos los casos dudosos. Sus poderes empezarán en el momento de silbar el saque de comienzo y tiene la facultad de imponer sanciones.<br>
-            Es necesario disponer de dos árbitros asistentes (jueces de línea), y estos se ubican en las bandas laterales del campo. Respecto, a las funciones de los árbitros 
+            El árbitro es el encargado de dirigir el partido y, según las reglas del fútbol, debe cumplir las siguientes
+            normas: Cuidará de la aplicación de las
+            reglas de juego y resolverá todos los casos dudosos. Sus poderes empezarán en el momento de silbar el saque
+            de comienzo y tiene la facultad de imponer sanciones.<br>
+            Es necesario disponer de dos árbitros asistentes (jueces de línea), y estos se ubican en las bandas
+            laterales del campo. Respecto, a las funciones de los árbitros
             asistentes se encarga de comentar y observar situaciones que el árbitro principal no hay podido ver. <br>
-            El proposito del arbitro es cumplir las leyes del juego. No sólo pueden iniciar o detener el juego cuando lo deseen, sino también pueden imponer medidas disciplinarias a los jugadores. Además, 
+            El proposito del arbitro es cumplir las leyes del juego. No sólo pueden iniciar o detener el juego cuando lo
+            deseen, sino también pueden imponer medidas disciplinarias a los jugadores. Además,
             el árbitro actúa como el cronometrador, siguiendo el reloj mientras el juego se desarrolla.
           </div>
           <div class="col-6" id="ar"><img src="/assests/imagenes/arbis.jpg" alt="arbitros" width="80%"></div>
@@ -172,77 +246,86 @@
   <footer>
     <div class="container-fluid ">
 
-          <!--enlaces-->
-          <div class="container" id="b">
-            <div class="row">
-              <div class="col-4"><a href="#tarjetas"><img src="/assests/imagenes/targetas.png" alt="tarjetas" width="50%"></a>
-                <p>tarjetas</p>
-              </div>
-              <div class="col-4"><a href="#outside"><img src="/assests/imagenes/banderin.png" alt="tarjetas" width="40%"></a>
-                <p>out side</p>
-              </div>
-              <div class="col-4" id="cancha"><a href="#formaciones"><img src="/assests/imagenes/descarga.png" alt="tarjetas"
-                    width="45%"></a>
-                <p>cancha</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-4"><a href="#goles"> <img src="/assests/imagenes/pelota.png" alt="tarjetas" width="40%"></a>
-                <p>goles</p>
-              </div>
-              <div class="col-4"><a href="#partido"><img src="/assests/imagenes/partido.png" alt="tarjetas" width="40%"></a>
-                <p>partido</p>
-              </div>
-              <div class="col-4" id="arbitro"><a href="#arbitraje"><img src="/assests/imagenes/arbitro.webp" alt="tarjetas"
-                    width="30%"></a>
-                <p>arbitro</p>
-              </div>
-            </div>
+      <!--enlaces-->
+      <div class="container" id="b">
+        <div class="row">
+          <div class="col-4"><a href="#tarjetas"><img src="/assests/imagenes/targetas.png" alt="tarjetas"
+                width="50%"></a>
+            <p>tarjetas</p>
           </div>
-          <hr>
+          <div class="col-4"><a href="#outside"><img src="/assests/imagenes/banderin.png" alt="tarjetas"
+                width="40%"></a>
+            <p>out side</p>
+          </div>
+          <div class="col-4" id="cancha"><a href="#formaciones"><img src="/assests/imagenes/descarga.png" alt="tarjetas"
+                width="45%"></a>
+            <p>cancha</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4"><a href="#goles"> <img src="/assests/imagenes/pelota.png" alt="tarjetas" width="40%"></a>
+            <p>goles</p>
+          </div>
+          <div class="col-4"><a href="#partido"><img src="/assests/imagenes/partido.png" alt="tarjetas" width="40%"></a>
+            <p>partido</p>
+          </div>
+          <div class="col-4" id="arbitro"><a href="#arbitraje"><img src="/assests/imagenes/arbitro.webp" alt="tarjetas"
+                width="30%"></a>
+            <p>arbitro</p>
+          </div>
+        </div>
+      </div>
+      <hr>
 
       <!--carrusel-->
       <h3>EQUIPOS PRINCIPALES </h3>
-      
+
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-inner" id="carrusel">
-            <div class="carousel-item active"> 
-              <a href="https://www.bocajuniors.com.ar/"><img src="/assests/imagenes/boca.png" class="d-block w-10" alt="boca" width="12%"></a> 
+            <div class="carousel-item active">
+              <a href="https://www.bocajuniors.com.ar/"><img src="/assests/imagenes/boca.png" class="d-block w-10"
+                  alt="boca" width="12%"></a>
             </div>
             <div class="carousel-item">
-              <a href="https://www.cariverplate.com.ar/"><img src="/assests/imagenes/river.png" class="d-block w-10" alt="river"  width="11%"></a>
+              <a href="https://www.cariverplate.com.ar/"><img src="/assests/imagenes/river.png" class="d-block w-10"
+                  alt="river" width="11%"></a>
             </div>
             <div class="carousel-item">
-              <a href="https://www.afa.com.ar/es/"><img src="/assests/imagenes/afa.png" class="d-block w-10" alt="AFA" width="9%"></a>
+              <a href="https://www.afa.com.ar/es/"><img src="/assests/imagenes/afa.png" class="d-block w-10" alt="AFA"
+                  width="9%"></a>
             </div>
-         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-      <hr>
-      <div>
-        <div class="row">
-          <div class="col-10"> <h2>Facundo Tapia 4to 1ra </h2></div>
-          <div class="col-1"><img src="/assests/imagenes/cet30.png" alt="cet30" width="60%"></div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
+
+        <hr>
+        <div>
+          <div class="row">
+            <div class="col-10">
+              <h2>Facundo Tapia 4to 1ra </h2>
+            </div>
+            <div class="col-1"><img src="/assests/imagenes/cet30.png" alt="cet30" width="60%"></div>
+          </div>
+        </div>
+
+
+
+
+
+
       </div>
-
-      
-
-
-       
-
-    </div>
   </footer>
-  
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>

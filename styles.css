@@ -49,7 +49,14 @@ h3{
 #can{
     background-image: descarga.png;
 }
-
+#carr{
+    display: flex;
+    justify-content: center;
+}
+#as{
+    display: flex;
+    justify-content: center;
+}
 
 2D4059 negro
 EA5455 rojo
