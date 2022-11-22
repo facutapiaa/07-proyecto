@@ -29,7 +29,7 @@ footer{
     background-color: #FFD460;
 }
 
-#pri, #seg, #ter, #cuar{
+#pri, #seg, #ter, #cuar, #quin{
     color: white;
     background-color: #2D4059 ;
 }
@@ -57,8 +57,13 @@ h3{
     display: flex;
     justify-content: center;
 }
+#quin{
+     display: flex;
+    justify-content: center;
+}
+#img{
+ margin-left: 125px;
+ margin-bottom: 80px;
+ margin-top: 30px;
+}
 
-2D4059 negro
-EA5455 rojo
-F07B3F naranja
-FFD460 alemania
